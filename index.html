@@ -16,8 +16,6 @@
 <link href="css/form.css" rel="stylesheet" type="text/css" />
 <link href="css/queryLoader.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWl6qu8emteNBfcaQ6KgZYs2-QABGUrh0&callback=initMap"
-  type="text/javascript"></script>
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 <style>
 body {
@@ -706,12 +704,14 @@ body {
 function myMap() {
   var mapCanvas = document.getElementById("map");
   var mapOptions = {
-    center: new google.maps.LatLng(-7.306396, 112.654173), zoom: 10
+    center: new google.maps.LatLng(-7.3072421, 112.6524533), zoom: 10
   };
   var map = new google.maps.Map(mapCanvas, mapOptions);
 }
 </script>
 
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWl6qu8emteNBfcaQ6KgZYs2-QABGUrh0&callback=initMap"
+  type="text/javascript"></script>
       <div class="row">
         <div class="col-md-12">
           <div class="social">
